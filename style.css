@@ -1,0 +1,271 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.menu{
+    top:0;
+    position: sticky;
+    display: flex;
+    height: 50px;
+    background-color:rgb(42, 116, 165);
+}
+
+.logo{
+    display: flex;
+    margin: 0 0 0 10px;
+    align-items: center;
+    max-width: 50px;
+}
+
+.logo img{
+    width: 100px;
+    height: 45px;
+}
+
+.menu_txt{
+    margin-top: 17px;
+    margin-right: 0;
+}
+
+.menu_txt a{
+    margin-right: 25px;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.menu_txt a:hover{
+    cursor: pointer;
+    text-shadow: 0 0 4px rgb(161, 32, 32), 0 0 4px rgb(255, 0, 0);
+    color: white;
+}
+
+.container_corpo{
+    display: flex;
+}
+
+.lateral{
+    background: linear-gradient(rgb(42, 116, 165),rgb(195, 226, 247));
+    display: flex;
+    position: fixed;
+    align-items: center;
+    height: 100%;
+    width: 280px;
+    margin: 0%;
+
+}
+
+.foto_pessoal{
+    margin-bottom: 20%;
+    text-align: center;
+    height: 225px;
+    width: 220px;
+    border-radius: 50%;
+    border: 4px dashed black;
+}
+
+.corpo{
+    background-color: rgb(207, 205, 205);
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 17.66%;
+    position: relative;
+}
+
+.sobre{
+    height: 825px;
+    padding-top: 350px;
+    margin: 0 0 0 50px;
+    margin-bottom: 100px;
+}
+
+
+.nome{
+    font-size: 80px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.822);
+}
+
+.nome span{
+    color: rgb(42, 116, 165);
+}
+
+.endereco{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.616);
+}
+
+.sobre_mim{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+.portfolio{
+    height: 825px;
+    display: flex;
+    width: 100%;
+    background-color: rgb(207, 205, 205);
+    width: 100%;;
+}
+
+.portfolio h1 {
+    margin: 10px 0 0 50px;
+    padding-top: 6%;
+    color: rgb(42, 116, 165);
+}
+
+.meus_projetos {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 5px;
+    height: 200px;
+    margin-top: 300px;
+}
+
+.meus_projetos span {
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: medium;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+}
+
+.links_b{
+    display: flex;
+    flex-direction: column;
+}
+
+.links_b img{
+    border: solid;
+    border-width: 3px;
+    border-color: rgb(39, 39, 39);
+    border-radius: 5px;
+ 
+}
+
+.links_c{
+    display: flex;
+    flex-direction: column;
+}
+
+.links img{
+    width: 200px;
+    height: 150px;
+}
+
+
+#python_1{
+    width: 300px;
+    height: 150px;
+}
+
+#python_2{
+    width: 300px;
+    height: 150px;
+}
+
+#site{
+    width: 200px;
+    height: 150px;
+}
+
+.contato{
+    background-color: rgb(207, 205, 205);
+    width: 100%;
+    height: 825px;
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.formulario{
+    margin: 0 0 0 50px;
+    width: 500px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+    filter: drop-shadow(4px 12px 18px #000);
+    color: aliceblue;
+}
+
+.formulario h1{
+    text-align: center;
+    color: rgb(42, 116, 165);
+}
+
+#name{
+    width: 319px;
+}
+
+#email{
+    width: 394px;
+}
+
+
+#comentario{
+    width: 442px;
+    height: 100px;
+}
+
+.logo_contato{
+    width: 100px;
+    padding-bottom: 8%;
+    padding-left: 3%;
+}
+
+.logo_contato img{
+    width: 100px;
+    height: 70px;
+}
+
+.logo_contato_b{
+    width: 100px;
+    padding-bottom: 8%;
+}
+
+.logo_contato_b img{
+    width: 120px;
+    height: 75px;
+}
+
+.logo_contato_c{
+    width: 100px;
+    padding-bottom: 8%;
+}
+
+.logo_contato_c img{
+    width: 100px;
+    height: 70px;
+}
+
+.logo_contato_d{
+    width: 100px;
+    padding-bottom: 8%;
+    padding-right: 15%;
+}
+
+.logo_contato_d img{
+    width: 100px;
+    height: 70px;
+}
+
+.rodape{
+    width: 85.31%;
+    height: 100px;
+    background-color:rgb(42, 116, 165);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 14.69%;
+    color: black;
+}

@@ -1,3 +1,4 @@
+/*Configurações de transições do meu site*/
 ScrollReveal({
     reset: true
 });

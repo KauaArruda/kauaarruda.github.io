@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
-
+/*Menu do meu Site Pessoal*/
 .menu{
     top:0;
     position: sticky;
@@ -13,23 +13,26 @@
     background-color:rgb(42, 116, 165);
 }
 
+/*Logo do meu Site Pessoal*/
 .logo{
     display: flex;
     margin: 0 0 0 10px;
     align-items: center;
     max-width: 50px;
 }
-
+/*Configurações da imagem da logo*/
 .logo img{
     width: 100px;
     height: 45px;
 }
 
+/*Configurações do texto do menu*/
 .menu_txt{
     margin-top: 17px;
     margin-right: 0;
 }
 
+/*Configurações do texto do menu*/
 .menu_txt a{
     margin-right: 25px;
     color: black;
@@ -37,6 +40,7 @@
     text-decoration: none;
 }
 
+/*Configurações do texto do menu*/
 .menu_txt a:hover{
     cursor: pointer;
     text-shadow: 0 0 4px rgb(161, 32, 32), 0 0 4px rgb(255, 0, 0);
@@ -47,6 +51,7 @@
     display: flex;
 }
 
+/*Barra lateral da esquerda do meu site*/
 .lateral{
     background: linear-gradient(rgb(42, 116, 165),rgb(195, 226, 247));
     display: flex;
@@ -58,6 +63,7 @@
 
 }
 
+/*Minha foto pessoal*/
 .foto_pessoal{
     margin-bottom: 20%;
     text-align: center;
@@ -67,6 +73,7 @@
     border: 4px dashed black;
 }
 
+/*Aonde está todas as escritas dddDDDDDDDDDDd do meu site*/
 .corpo{
     background-color: rgb(207, 205, 205);
     width: 100%;
@@ -76,6 +83,7 @@
     position: relative;
 }
 
+/*Configurações do sobre do meu site*/
 .sobre{
     height: 825px;
     padding-top: 350px;
@@ -83,28 +91,32 @@
     margin-bottom: 100px;
 }
 
-
+/*Configurações do meu nome na parte do sobre*/
 .nome{
     font-size: 80px;
     font-family: 'Open Sans', sans-serif;
     color: rgba(0, 0, 0, 0.822);
 }
 
+/*Configurações do meu nome na parte do sobre*/
 .nome span{
     color: rgb(42, 116, 165);
 }
 
+/*Configurações do meu endereço na parte do sobre*/
 .endereco{
     font-size: 25px;
     color: rgba(0, 0, 0, 0.616);
 }
 
+/*Configurações do texto sobre mim na parte do sobre*/
 .sobre_mim{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 24px;
     margin-top: 50px;
 }
 
+/*Configurações do portfólio do meu site*/
 .portfolio{
     height: 825px;
     display: flex;
@@ -113,12 +125,14 @@
     width: 100%;;
 }
 
+/*Configurações do texto meus projetos na parte do portfolio*/
 .portfolio h1 {
     margin: 10px 0 0 50px;
     padding-top: 6%;
     color: rgb(42, 116, 165);
 }
 
+/*Configurações dos meus projetos*/
 .meus_projetos {
     display: flex;
     align-items: center;
@@ -127,6 +141,7 @@
     margin-top: 300px;
 }
 
+/*Configurações dos meus projetos*/
 .meus_projetos span {
     text-align: center;
     margin-bottom: 10px;
@@ -135,16 +150,19 @@
     font-size: medium;
 }
 
+/*Configurações de cada projeto meu*/
 .links{
     display: flex;
     flex-direction: column;
 }
 
+/*Configurações de cada projeto meu*/
 .links_b{
     display: flex;
     flex-direction: column;
 }
 
+/*Configurações da imagem do meu projeto*/
 .links_b img{
     border: solid;
     border-width: 3px;
@@ -153,32 +171,37 @@
  
 }
 
+/*Configurações de cada projeto meu*/
 .links_c{
     display: flex;
     flex-direction: column;
 }
 
+/*Configurações da imagem do meu projeto*/
 .links img{
     width: 200px;
     height: 150px;
 }
 
-
+/*Configurações do meu projeto de treinamento de python*/
 #python_1{
     width: 300px;
     height: 150px;
 }
 
+/*Configurações do meu projeto de sistema de controle de estoque*/
 #python_2{
     width: 300px;
     height: 150px;
 }
 
+/*Configurações do meu projeto do site educatech*/
 #site{
     width: 200px;
     height: 150px;
 }
 
+/*Configurações da parte de contato do meu site*/
 .contato{
     background-color: rgb(207, 205, 205);
     width: 100%;
@@ -188,6 +211,7 @@
     align-items: center;
 }
 
+/*Configurações do formulário de contatos*/
 .formulario{
     margin: 0 0 0 50px;
     width: 500px;
@@ -198,6 +222,7 @@
     color: aliceblue;
 }
 
+/*Configurações da letra do texto formulário de contatos*/
 .formulario h1{
     text-align: center;
     color: rgb(42, 116, 165);
@@ -258,7 +283,7 @@
     width: 100px;
     height: 70px;
 }
-
+/*Configurações do rodape do meu site*/
 .rodape{
     width: 85.31%;
     height: 100px;
